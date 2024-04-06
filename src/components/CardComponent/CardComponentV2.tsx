@@ -16,6 +16,7 @@ export default function CardComponentV2({
             src={image}
             alt={name}
           />
+          
           <div className="absolute top-0 right-0 bg-red-600 text-white px-2 py-1 m-2 rounded-md text-sm font-medium">
             SALE
           </div>
