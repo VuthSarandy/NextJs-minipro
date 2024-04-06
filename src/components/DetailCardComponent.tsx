@@ -1,4 +1,5 @@
 import { productType } from "@/types/productTypes";
+import Image from "next/image";
 import React from "react";
 
 export default function DetailCardComponent({
@@ -12,7 +13,7 @@ export default function DetailCardComponent({
     <section className="text-gray-700 body-font overflow-hidden bg-white">
       <div className="container px-5 py-24 mx-auto">
         <div className="lg:w-4/5 mx-auto flex flex-wrap">
-          <img
+          <Image
             alt="ecommerce"
             className="lg:w-1/2 w-full object-cover object-center rounded border "
             src={image}

@@ -38,7 +38,7 @@ export default function UserTable() {
     {
       name: "Image",
       selector: (row): any => (
-        <img src={row.image} width={100} height={100} alt="user" />
+        <Image src={row.image} width={100} height={100} alt="user" />
       ),
     },
     {

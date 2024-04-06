@@ -11,12 +11,13 @@ import {
   NavbarLink,
   NavbarToggle,
 } from "flowbite-react";
+import Image from "next/image";
 
 export default function NavbarV1Component() {
   return (
     <Navbar className="bg-sec">
       <NavbarBrand href="/">
-        <img
+        <Image
           src="/logo2.png"
           className="mr-3 h-6 sm:h-9"
           alt="Flowbite React Logo"
