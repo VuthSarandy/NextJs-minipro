@@ -68,7 +68,7 @@ export default function page() {
                   width={100}
                   height={100}
                 />
-                <h3 className="text-xl font-bold mb-2">John Doe</h3>
+                <h3 className="text-xl font-bold mb-2">Vuth Sarandy</h3>
                 <p className="text-gray-700 text-sm">Co-founder / CEO</p>
               </div>
             </div>
