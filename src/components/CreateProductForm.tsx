@@ -122,7 +122,7 @@ const CreateProductForm = () => {
             <div className="flex flex-col gap-2 text-primaryColor">
               <label htmlFor="price">Price: </label>
               <Field
-                placeholder="100"
+                placeholder="1000"
                 className={fieldStyle}
                 name="price"
                 type="number"
@@ -197,8 +197,8 @@ function CustomInput({ field, form, setFieldValue, ...props }: any) {
           className="rounded-md"
           src={previewImage}
           alt="preview Image"
-          width={100}
-          height={100}
+          width={1000}
+          height={1000}
         />
       )}
     </div>

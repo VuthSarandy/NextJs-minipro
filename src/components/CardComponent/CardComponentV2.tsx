@@ -16,6 +16,8 @@ export default function CardComponentV2({
             className="object-cover h-64 w-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 transform duration-300"
             src={image}
             alt={name}
+            width={1000}
+            height={1000}
           />
 
           <div className="absolute top-0 right-0 bg-red-600 text-white px-2 py-1 m-2 rounded-md text-sm font-medium">

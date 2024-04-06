@@ -11,7 +11,7 @@ export default function UserTable() {
   const [openModal, setOpenModal] = useState(false);
   const [getProduct, setProduct] = useState([]);
   async function fetchData() {
-    const data = await fetch(`${BASE_URL}?page_size=100`);
+    const data = await fetch(`${BASE_URL}?page_size=1000`);
     const res = await data.json();
     setProduct(res.results);
   }
@@ -38,7 +38,13 @@ export default function UserTable() {
     {
       name: "Image",
       selector: (row): any => (
-        <Image src={row.image} width={100} height={100} alt="user" />
+        <Image
+          src={row.image}
+          width={1000}
+          height={1000}
+          alt="user"
+        
+        />
       ),
     },
     {

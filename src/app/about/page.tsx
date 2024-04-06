@@ -14,6 +14,8 @@ export default function page() {
                   className="w-full"
                   src="/my1.JPG"
                   alt="Our Story Image"
+                  width={1000}
+                  height={1000}
                 />
               </div>
               <div className="md:w-1/2 md:ml-12">
@@ -63,6 +65,8 @@ export default function page() {
                   className="w-32 h-32 rounded-full mb-4"
                   src="/my.jpeg"
                   alt="Team Member 1"
+                  width={100}
+                  height={100}
                 />
                 <h3 className="text-xl font-bold mb-2">John Doe</h3>
                 <p className="text-gray-700 text-sm">Co-founder / CEO</p>

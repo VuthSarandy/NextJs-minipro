@@ -21,6 +21,8 @@ export default function NavbarV1Component() {
           src="/logo2.png"
           className="mr-3 h-6 sm:h-9"
           alt="Flowbite React Logo"
+          width={50}
+          height={100}
         />
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
           DIVIER
